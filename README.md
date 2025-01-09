@@ -36,9 +36,18 @@ Details of the simulation settings:
 - 4% sequencing error rate: An in-house trained model was used (`NanoSim_R10_model.tar.gz`).
 - 10% sequencing error rate: Pretrained model `human_NA12878_DNA_FAB49712_guppy` provided by NaonaSim was used.
 
-## Public data
+## Real data
 
+Several real datasets were used in this study, and their details are outlined below:
 
+1. NA12878 (R9.4.1): Available at https://github.com/nanopore-wgs-consortium/NA12878
+2. NA12878 (R10.4.1): Available at https://github.com/GenTechGp/gtgseq
+3. NA19240 (R9.4.1): Accessible at ENA under accession number PRJEB26791.
+4. FMR1 CGG Repeat Expansion: Available at ENA under accession number PRJNA745542.
+5. HTT CAG Repeat Expansion: Available at ENA under accession number PRJNA678742.
+6. C9orf72 GGGGCC Expansion: Retrieved from NCBI SRA under accession number PRJNA786382.
+7. ABCA7 VNTR Expansion: Available at ENA under accession number PRJEB29458.
+8. FSHD D4Z4 Array: Accessible from NCBI SRA under accession number PRJNA940957.
 
 ## Tandem repeat quantification and genotyping
 
