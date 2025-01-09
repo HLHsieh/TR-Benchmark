@@ -24,19 +24,21 @@ All related files are located under the `Simulated/` folder.
 
 **Step 1: Generate Mock Chromosomes**
 
-Mock chromosomes with varying tandem repeat sizes were generated based on the human reference genome `GRCh38` (See ``).
+Mock chromosomes with varying tandem repeat sizes were generated based on the human reference genome `GRCh38` (See `generate_mock_chromosomes.R`).
 
 **Step 2: Simulate Sequencing Data** 
 
-Simulated sequencing data were generated using [NanoSim]([https://github.com/WGLab/RepeatHMM](https://github.com/bcgsc/NanoSim)) (v3.1.0)(See ``).
+Simulated sequencing data were generated using [NanoSim]([https://github.com/WGLab/RepeatHMM](https://github.com/bcgsc/NanoSim)) (v3.1.0)(See `NanoSim.sh`), and the resulting `XXX_aligned_reads.fasta` file was used for further analysis.
 
 Details of the simulation settings:
 
 - 2% sequencing error rate: Pretrained model `human_giab_hg002_sub1M_kitv14_dorado` provided by NaonaSim was used.
-- 4% sequencing error rate: An in-house trained model was used (See ``).
+- 4% sequencing error rate: An in-house trained model was used (`NanoSim_R10_model.tar.gz`).
 - 10% sequencing error rate: Pretrained model `human_NA12878_DNA_FAB49712_guppy` provided by NaonaSim was used.
 
 ## Public data
+
+
 
 ## Tandem repeat quantification and genotyping
 
